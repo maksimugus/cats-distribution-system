@@ -8,11 +8,11 @@
         <version>3.2.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>itmo.tech</groupId>
-    <artifactId>cat</artifactId>
+    <groupId>ru.mchernyaev</groupId>
+    <artifactId>owner-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cat</name>
-    <description>cat</description>
+    <name>owner-service</name>
+    <description>service for managing owners</description>
 
     <properties>
         <java.version>21</java.version>
@@ -34,8 +34,13 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>itmo.tech</groupId>
-            <artifactId>domain</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>ru.mchernyaev</groupId>
+            <artifactId>cds-domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

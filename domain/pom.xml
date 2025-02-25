@@ -8,20 +8,21 @@
         <version>3.2.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>itmo.tech</groupId>
-    <artifactId>domain</artifactId>
+    <groupId>ru.mchernyaev</groupId>
+    <artifactId>cds-domain</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>domain</name>
-    <description>domain</description>
+    <name>cds-domain</name>
+    <description>general application entities</description>
+
     <properties>
         <java.version>21</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
